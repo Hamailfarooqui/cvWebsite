@@ -1,0 +1,302 @@
+/* In your styles.css file */
+.navbar-brand {
+  background-image: url('assets/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+  color: black;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus .navbar-light .navbar-brand:hover {
+  color: black;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  color: black;
+}
+.w-100 {
+  height: 100vh;
+}
+/* Apply a background image or background color */
+.hero {
+  background-image: url('./assets/photo-1661956600684-97d3a4320e45.jpg');
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+/* Center the text content vertically and horizontally */
+.hero {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed */
+  padding-top: 8rem;
+}
+
+.hero-content {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  text-align: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.hero .cta-button {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+  background-color: #00a2ff;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+  background-color: #008ee0;
+}
+
+#benifits {
+  background-color: #f9f9f9;
+}
+
+#benifits .section-header h2 {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+#benifits .section-header p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+#benifits .card {
+  background-color: #333;
+  color: #fff;
+}
+
+#benifits .card i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#benifits .card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#benifits .card p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#benifits .card .btn {
+  background-color: #00a2ff;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  padding: 0.75rem 1.5rem;
+}
+
+#benifits .card .btn:hover {
+  background-color: #008ee0;
+}
+
+.about {
+  margin-top: 3rem;
+  background-color: #00a2ff;
+  padding: 2rem;
+}
+
+.about h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about p {
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-section {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+}
+
+/* In your styles.css file */
+
+.resumeForm {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.resumeForm h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.resumeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.resumeContainer input[type='text'],
+.resumeContainer input[type='file'] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.resumeContainer input[type='text']::placeholder {
+  color: #aaa;
+}
+
+.upload_cv {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #00a2ff;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.upload_cv:hover {
+  background-color: #008ee0;
+}
+
+/* In your styles.css file */
+
+.cv-details {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.cv-details .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cv-details input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.cv-details input[type='text']::placeholder {
+  color: #aaa;
+}
+
+.cv-details .main {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.cv-details .table-wrapper {
+  overflow-x: auto;
+}
+
+.cv-details .fl-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.cv-details .fl-table thead th {
+  padding: 10px;
+  background-color: #00a2ff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.cv-details .fl-table tbody td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#searchButton {
+  color: white;
+  background-color: #00a2ff;
+  padding: 10px 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
