@@ -38,20 +38,20 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="/cvWebsite/Index.html">Home</a>
+                <a class="nav-link" href="/Index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/cvWebsite/resumeSubmission.html"
+                <a class="nav-link" href="/resumeSubmission.html"
                   >Resume Submission</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/cvWebsite/searchResume.html"
+                <a class="nav-link" href="/searchResume.html"
                   >Search Resumes</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/cvWebsite/Index.html">Contact</a>
+                <a class="nav-link" href="/Index.html">Contact</a>
               </li>
             </ul>
           </div>
